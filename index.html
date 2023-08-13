@@ -3,10 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="index.css">
+  
   <title>Your Portfolio</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+  <link rel="stylesheet" href="index.css">
 </head>
 <body>
   <header>
@@ -21,18 +22,13 @@
   
   <section id="about">
     <!-- About Me content here -->
-    <h2>About Me</h2>
+    
     <div class="about-content">
       <img src="picture.jpg" alt="Your Name">
-      <p>
-        Hi there! I'm Archi Sen, a passionate software developer with a strong proficiency in HTML, CSS, and JavaScript. With over 1 year of experience as a JavaScript instructor, I've had the privilege of sharing my knowledge and helping others unlock their coding potential.
-      </p>
-      <p>
-        My journey into the world of programming started with a deep curiosity and a desire to create meaningful digital experiences. Throughout my career, I've worked on a variety of projects, honing my skills in both front-end and back-end development. My toolkit also includes React.js, a library I use to build responsive and dynamic web applications.
-      </p>
-      <p>
-        When I'm not coding, you can find me exploring the latest advancements in the tech world, experimenting with new coding techniques, and enjoying the thrill of solving complex problems. I believe that coding is not just a job for me; it's my creative outlet and a way to contribute positively to the ever-evolving digital landscape.
-      </p>
+      <button id="about-toggle">About Me</button>
+      <div class="typed-content">
+        <p id="typed-text"></p>
+      </div>
     </div>
 
   </section>
@@ -45,17 +41,23 @@
           <div class="project-card">
             <img src="trex.png" alt="Project 1">
             <h3>Project 1</h3>
-            <p>Description of Project 1.</p>
+            <p>Experience the excitement of the T-Rex Game, where you control a running dinosaur that faces the challenge of dodging cacti on its path. As you guide the T-Rex, the game's speed gradually increases, putting your reflexes to the test. Be cautious – a collision with any cactus ends the game. But don't worry, a replay button appears, inviting you to take on the challenge again and beat your high score. Get ready to run, jump, and set new records in this classic and addictive browser-based game.</p>
           </div>
           <div class="project-card">
-            <img src="BW.png" width="611" height="298" alt="Project 2">
+            <img src="BW.png" width="811" height="360" alt="Project 2">
             <h3>Project 2</h3>
-            <p>Description of Project 2.</p>
+            <p>The Birthday Wisher Chrome Extension revolutionizes how we engage with Facebook birthdays. Seamlessly bridging connections, it facilitates timely birthday wishes, upcoming reminders, and personalized messages, seamlessly bringing meaningful interactions to our busy digital lives. With user-centric design at its core, this extension elevates online celebrations, ensuring no special moment slips by unnoticed.
+
+              At the heart of this innovation is the "Archive Chat" feature, a standout addition showcasing my commitment to user convenience. Messages for upcoming, follow-up, and current birthdays gracefully archive after a short 10-second interval, creating an organized and clutter-free chat environment. Additionally, the extension empowers users to effortlessly post heartfelt messages on friends' timelines and send thoughtful greetings via Messenger chat. The Birthday Wisher Chrome Extension embodies my JavaScript and Chrome extension expertise, transforming everyday gestures into powerful connections and contributing to a more connected digital world.
+              </p>
           </div>
           <div class="project-card">
-            <img src="project3.jpg" alt="Project 3">
+            <img src="FC.png" width="811" height="360" alt="Project 3">
             <h3>Project 3</h3>
-            <p>Description of Project 2.</p>
+            <p>Step into a new era of networking with the Friend Connector Chrome Extension. Designed exclusively for Facebook, this extension harnesses cutting-edge algorithms to send personalized friend requests. Seamlessly integrated with groups, suggested friend lists, and friend of friend lists, it effortlessly expands your digital connections, transforming the way you build relationships online.
+
+              What sets the Friend Connector apart is its ability to infuse personalization. Craft tailored messages to accompany your friend requests, igniting conversations from the outset. With a commitment to efficiency and authenticity, this project showcases my Chrome extension development skills. It encapsulates my dedication to fostering meaningful digital interactions, empowering users to navigate the digital landscape with strategic intent and genuine connections.
+            </p>
           </div>
           <!-- Add more project cards here -->
         </div>
@@ -70,9 +72,9 @@
         <div class="contact-content">
           <p>If you're interested in collaborating or just want to say hello, feel free to get in touch:</p>
           <ul>
-            <li>Email: <a href="mailto:your.email@example.com">senarchi3@gmail.com</a></li>
-            <li>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile">https://www.linkedin.com/in/archi-sen-8b49bb131/</a></li>
-            <li>GitHub: <a href="https://github.com/yourusername">https://github.com/senarchi</a></li>
+            <li>Email: <a href="mailto:senarchi3@gmail.com">senarchi3@gmail.com</a></li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/archi-sen-8b49bb131/">https://www.linkedin.com/in/archi-sen-8b49bb131/</a></li>
+            <li>GitHub: <a href="https://github.com/senarchi">https://github.com/senarchi</a></li>
           </ul>
         </div>
       </section>
@@ -86,5 +88,7 @@
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
   <script src="index.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script> -->
+
 </body>
 </html>
